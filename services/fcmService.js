@@ -1,6 +1,6 @@
 const admin = require("firebase-admin");
 const { google } = require("googleapis");
-const path = require("path");
+const path = require("../ServerKey.json");
 
 // Initialize Firebase Admin SDK
 const firebaseConfig = path.join(__dirname, "../ServerKey.json");
